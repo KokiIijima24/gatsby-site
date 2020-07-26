@@ -2,10 +2,26 @@ import React from "react"
 //import { Link } from "gatsby"
 
 import Layout from "../components/layout"
+import Kv from "../components/kv"
+import BlogItem from "../components/blogItem"
+import { Container, Row, Col } from "react-bootstrap"
 
 const IndexPage = () => (
   <Layout>
-    <h1>index</h1>
+    <Kv />
+    <Container>
+      <Row>
+        <Col sm={4}>
+          <BlogItem />
+        </Col>
+        <Col sm={4}>
+          <BlogItem />
+        </Col>
+        <Col sm={4}>
+          <BlogItem />
+        </Col>
+      </Row>
+    </Container>
   </Layout>
 )
 
