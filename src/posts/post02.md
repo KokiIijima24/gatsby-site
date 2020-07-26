@@ -4,7 +4,7 @@ date: "2020-04-05"
 thumbnail: "../images/image_002.jpg"
 ---
 
-Gatsby ブログ作成チュートリアル002
+## Gatsby ブログ作成チュートリアル002
 ![Sample](../images/image_002.jpg)
 
 1. list1
